@@ -1,6 +1,6 @@
 # My Termux setup
 
-Here is My Termux Terminal Emulator Setup &amp; Packages 🔖
+This is My Termux Terminal Emulator Setup &amp; Packages 🔖
 
 > Linux on Android 💯
 
@@ -19,7 +19,18 @@ Get it from Google Play store 💯
 - Update Termux Packages
 
 ```bash
-pkg up
+pkg update
+```
+
+- Upgrade Termux Packages
+
+```bash
+pkg upgrade
+```
+- Update And Upgrade Termux Packages In One Command
+
+```bash
+pkg update && pkg upgrade 
 ```
 
 - Install cURL
@@ -123,7 +134,7 @@ pkg install ffmpeg
 - Install youtube-dl
 
 ```bash
-curl -sL https://gist.githubusercontent.com/mskian/6ea9c2b32d5f41867e7cafc88d1b26d5/raw/youtube-dl.sh | bash
+pip install youtube-dl
 ```
 
 - Install PHP
@@ -192,6 +203,12 @@ pip install ddgr
 
 ```bash
 pkg install screenfetch
+```
+
+Install neofetch (Command-line system information tool)
+
+```bash
+pkg install neofetch
 ```
 
 - Install w3m - Text based Web browser
